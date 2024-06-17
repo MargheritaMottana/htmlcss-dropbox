@@ -7,3 +7,52 @@
 
     font-family: "open sans";
 }
+
+/* GENERAL */
+
+.container-100 {
+    width: 100%;
+    padding: 20px 15px;
+    margin: 0 auto;
+}
+
+.container-70 {
+    width: 70%;
+    padding: 20px 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+}
+
+.blue-button {
+    color: white;
+    background-color: #1D61FF;
+    border-radius: 2px;
+}
+
+.bg-azzurro {
+    background-color: #B4D0E7;
+}
+
+/* header */
