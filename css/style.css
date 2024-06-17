@@ -12,24 +12,37 @@
 
 .container-100 {
     width: 100%;
-    padding: 20px 15px;
     margin: 0 auto;
 }
 
-.container-70 {
-    width: 70%;
-    padding: 20px 15px;
+.container-60 {
+    width: 60%;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
 .row {
+    padding: 15px 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .column {
     display: flex;
     align-items: center;
+}
+
+.column-2-5 {
+    width: calc((100% /5) * 2);
+}
+
+.column-3-5 {
+    width: calc((100% /5) * 3);
+}
+
+p {
+    font-size: 0.9rem;
 }
 
 .link {
@@ -41,18 +54,55 @@
 a {
     display: inline-block;
     text-decoration: none;
+    font-size: 0.9rem;
     color: black;
     padding: 5px 15px;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
 }
 
 .blue-button {
     color: white;
     background-color: #1D61FF;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .bg-azzurro {
     background-color: #B4D0E7;
 }
 
-/* header */
+/* HEADER BOTTOM */
+
+h1 {
+    padding-top: 40px;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.header-bottom .column-2-5 {
+    margin-top: 20px;
+}
+
+.header-bottom .column-2-5>* {
+    margin-top: 20px;
+}
+
+.header-bottom .container-60 .column-2-5 i {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.header-bottom .column-3-5 {
+    position: relative;
+}
+
+.header-bottom .column-3-5 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 40px;
+}
