@@ -12,17 +12,23 @@
 
 .container-100 {
     width: 100%;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
 .container-60 {
     width: 60%;
-    padding: 0 15px;
     margin: 0 auto;
 }
 
+.container-50 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
 .row {
-    padding: 15px 10px;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -41,6 +47,10 @@
     width: calc((100% /5) * 3);
 }
 
+.column-30 {
+    width: 30%;
+}
+
 p {
     font-size: 0.9rem;
 }
@@ -54,9 +64,7 @@ p {
 a {
     display: inline-block;
     text-decoration: none;
-    font-size: 0.9rem;
     color: black;
-    padding: 5px 15px;
     cursor: pointer;
 }
 
@@ -68,16 +76,25 @@ img {
     color: white;
     background-color: #1D61FF;
     border-radius: 3px;
+    text-align: center;
+    display: inline-block;
 }
 
 .bg-azzurro {
     background-color: #B4D0E7;
 }
 
+/* HEADER TOP */
+
+.header-top a {
+    padding: 5px 15px;
+}
+
 /* HEADER BOTTOM */
 
 h1 {
     padding-top: 40px;
+    padding-left: 5px;
     font-size: 3.5rem;
     font-weight: bolder;
 }
@@ -105,4 +122,100 @@ h1 {
     left: 0;
     top: 0;
     margin-top: 40px;
+}
+
+/* MAIN */
+
+/* Sezione inziale con radio button */
+h2 {
+    padding: 40px 0;
+    font-size: 2rem;
+}
+
+.radio-button {
+    display: inline-block;
+    margin: 0px 30px 30px 0;
+}
+
+/* Sezione colonne */
+.border-solid {
+    border: solid 1px lightgrey;
+}
+
+.plan-list-top {
+    height: 210px;
+}
+
+/* titolo e info iniziali */
+.plan-title {
+    text-align: center;
+    border-bottom: solid 1px lightgrey;
+    padding: 10px 0;
+}
+
+.column-container {
+    padding: 0 20px 20px 20px;
+}
+
+main i {
+    font-size: 0.9rem;
+}
+
+/* titolo info */
+.info-title>* {
+    padding-bottom: 10px;
+}
+
+.info-title h3 {
+    padding-top: 20px;
+}
+
+/* plan list top */
+
+.plan-list-top ul li {
+    padding-bottom: 20px;
+}
+
+/* bottone prova gratis */
+.just-center {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+    color: white;
+    background-color: #1D61FF;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+/* sezione compra */
+.link-buy a {
+    color: blue;
+    text-decoration: underline;
+    padding-bottom: 40px;
+}
+
+.link-buy div {
+    padding-bottom: 40px;
+    border-bottom: solid 1px lightgrey;
+    display: inline;
+}
+
+/* lista punti salienti */
+.plan-list-bottom {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.plan-list-bottom h4 {
+    padding-bottom: 20px;
+}
+
+.plan-list-bottom ul li {
+    padding-bottom: 20px;
 }
