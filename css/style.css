@@ -140,6 +140,7 @@ h2 {
 /* Sezione colonne */
 .border-solid {
     border: solid 1px lightgrey;
+    margin-bottom: 30px;
 }
 
 .plan-list-top {
@@ -218,4 +219,10 @@ main i {
 
 .plan-list-bottom ul li {
     padding-bottom: 20px;
+}
+
+/* contatta l'ufficio vendite */
+
+.contact-office {
+    padding-top: 20px;
 }
