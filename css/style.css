@@ -97,6 +97,11 @@ img {
     border: solid 1px darkgray;
 }
 
+.button-white-no-border {
+    color: black;
+    background-color: white;
+}
+
 .bg-azzurro {
     background-color: #B4D0E7;
 }
@@ -245,4 +250,16 @@ main i {
 
 .partner>* {
     margin-bottom: 30px;
+}
+
+/* CTA */
+
+.bordeaux {
+    color: #61092D;
+}
+
+.align-baseline {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
 }
