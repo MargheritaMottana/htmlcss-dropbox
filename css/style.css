@@ -207,7 +207,6 @@ main i {
 }
 
 /* plan list top */
-
 .plan-list-top ul li {
     padding-bottom: 20px;
 }
@@ -246,7 +245,6 @@ main i {
 }
 
 /* contatta l'ufficio vendite */
-
 .contact-office {
     padding-top: 20px;
 }
@@ -261,6 +259,12 @@ main i {
     margin-bottom: 30px;
 }
 
+/* OPERAZIONI */
+
+.column-operation {
+    padding-bottom: 50px;
+}
+
 /* CTA */
 
 .bordeaux {
@@ -271,6 +275,25 @@ main i {
     display: flex;
     justify-content: space-between;
     align-items: first baseline;
+}
+
+/* .cta {
+    margin-bottom: 40px;
+} */
+
+/* DOMANDE FREQUENTI */
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-top: solid 1px darkgray;
+    border-bottom: solid 1px darkgray;
+}
+
+.question i {
+    padding: 0 20px;
 }
 
 /* FOOTER */
