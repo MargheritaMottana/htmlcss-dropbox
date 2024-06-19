@@ -294,3 +294,19 @@ main i {
     list-style: none;
     padding: 10px 0;
 }
+
+.border-bottom {
+    padding-bottom: 50px;
+    border-bottom: solid 1px #99999A;
+}
+
+.footer-language {
+    color: #99999A;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-language>* {
+    padding-right: 10px;
+}
