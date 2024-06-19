@@ -55,20 +55,8 @@
     width: 30%;
 }
 
-p {
-    font-size: 0.9rem;
-}
-
 img {
     width: 100%;
-}
-
-.blue-button {
-    color: white;
-    background-color: #1D61FF;
-    border-radius: 3px;
-    text-align: center;
-    display: inline-block;
 }
 
 .button {
@@ -79,7 +67,7 @@ img {
     border: none;
     text-align: center;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 15px;
 }
 
 .button-white {
@@ -141,7 +129,6 @@ h1 {
 .header-bottom .container-60 .column-2-5 i {
     font-size: 1.8rem;
     margin-top: 40px;
-    margin-bottom: 5px;
 }
 
 .header-bottom .column-3-5 {
@@ -179,7 +166,7 @@ h2 {
 }
 
 .plan-list-top {
-    height: 210px;
+    height: 230px;
 }
 
 /* titolo e info iniziali */
@@ -217,22 +204,35 @@ main i {
     justify-content: center;
 }
 
+.full-width {
+    width: 100%;
+}
+
 /* sezione compra */
-.link-buy a {
-    color: blue;
-    text-decoration: underline;
+.link-buy {
+    display: flex;
     padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .link-buy div {
-    padding-bottom: 40px;
-    border-bottom: solid 1px lightgrey;
-    display: inline;
+    padding-right: 5px;
+}
+
+.link-buy a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.border-buy {
+    border: solid 1px lightgray;
+    max-width: 20%;
+    margin-left: 20px;
 }
 
 /* lista punti salienti */
 .plan-list-bottom {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 30px;
 }
 
@@ -242,6 +242,10 @@ main i {
 
 .plan-list-bottom ul li {
     padding-bottom: 20px;
+}
+
+.fa-li .fa-check {
+    color: blue;
 }
 
 /* contatta l'ufficio vendite */
@@ -265,6 +269,12 @@ main i {
     padding-bottom: 50px;
 }
 
+/* SCOPRI I CLIENTI */
+
+.padding-bottom-50 {
+    padding-bottom: 100px;
+}
+
 /* QUADRATI */
 
 .square-row {
@@ -286,6 +296,7 @@ main i {
     align-items: center;
     justify-content: center;
 }
+
 
 /* centrale */
 .central-square {
@@ -313,8 +324,13 @@ main i {
 }
 
 /* left */
+
 .designit {
     background-color: #A2D39B;
+}
+
+.border-color {
+    border: solid 15px #D1E9CD;
 }
 
 .asu {
@@ -358,10 +374,6 @@ main i {
     align-items: first baseline;
 }
 
-/* .cta {
-    margin-bottom: 40px;
-} */
-
 /* DOMANDE FREQUENTI */
 
 .question {
@@ -400,7 +412,7 @@ main i {
     padding: 10px 0;
 }
 
-.border-bottom {
+.colored-border-bottom {
     padding-bottom: 50px;
     border-bottom: solid 1px #99999A;
 }
