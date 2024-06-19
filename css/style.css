@@ -265,6 +265,87 @@ main i {
     padding-bottom: 50px;
 }
 
+/* QUADRATI */
+
+.square-row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+}
+
+.square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.square-1-4 {
+    width: 50%;
+    height: 50%;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* centrale */
+.central-square {
+    padding: 50px;
+}
+
+.central-square p {
+    padding-top: 50px;
+}
+
+.central-client-logo {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.central-square hr {
+    border: solid 1px darkgrey;
+    max-width: 20%;
+}
+
+/* quadratini */
+.client-logo {
+    width: 50%;
+    filter: invert(100);
+}
+
+/* left */
+.designit {
+    background-color: #A2D39B;
+}
+
+.asu {
+    background-color: #61082B;
+}
+
+.uf {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1D1C;
+}
+
+/* right */
+.wbl {
+    background-color: #D5161F;
+}
+
+.hearst {
+    background-color: #B4D0E7;
+}
+
+.lonelyplanet {
+    background-color: #0D2481;
+}
+
+.cco {
+    background-color: #FFD82F;
+}
+
 /* CTA */
 
 .bordeaux {
@@ -298,6 +379,7 @@ main i {
 
 /* FOOTER */
 
+/* top */
 .footer-link-title {
     padding-top: 50px;
     padding-bottom: 10px;
@@ -323,6 +405,7 @@ main i {
     border-bottom: solid 1px #99999A;
 }
 
+/* bottom */
 .footer-language {
     color: #99999A;
     display: flex;
@@ -331,5 +414,6 @@ main i {
 }
 
 .footer-language>* {
+    font-size: small;
     padding-right: 10px;
 }
